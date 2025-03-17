@@ -1,28 +1,7 @@
 {
-  "name": "@parallel-protocol/parallel-core",
-  "description": "",
+  "name": "parallel-core",
+  "description": "Parallel Core",
   "version": "1.0.0",
-  "author": {
-    "name": "parallel-protocol",
-    "url": "https://github.com/parallel-protocol"
-  },
-  "dependencies": {
-    "@openzeppelin/contracts": "^5.0.1"
-  },
-  "devDependencies": {
-    "forge-std": "github:foundry-rs/forge-std#v1.8.1",
-    "prettier": "^3.0.0",
-    "solhint": "^3.6.2"
-  },
-  "keywords": [
-    "blockchain",
-    "ethereum",
-    "forge",
-    "foundry",
-    "smart-contracts",
-    "solidity",
-    "template"
-  ],
   "private": true,
   "scripts": {
     "clean": "rm -rf cache out",
@@ -34,5 +13,15 @@
     "test": "forge test",
     "test:coverage": "forge coverage",
     "test:coverage:report": "forge coverage --report lcov && genhtml lcov.info --branch-coverage --output-dir coverage"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  },
+  "devDependencies": {
+    "forge-std": "github:foundry-rs/forge-std#v1.9.5",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-deploy": "^1.0.1",
+    "prettier": "^3.0.0",
+    "solhint": "^3.6.2"
   }
 }

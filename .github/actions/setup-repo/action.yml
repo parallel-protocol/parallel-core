@@ -29,3 +29,6 @@ runs:
     - name: Install dependencies
       shell: bash
       run: bun install
+
+    - name: Install Foundry
+      uses: foundry-rs/foundry-toolchain@v1

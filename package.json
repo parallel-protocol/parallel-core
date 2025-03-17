@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "compile": "forge build",
     "clean": "rm -rf cache out",
     "build": "forge build",
     "lint": "bun run lint:sol && bun run prettier:check",

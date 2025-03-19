@@ -12,7 +12,9 @@ The Parallel Core own the following contracts:
   [Openzeppelin AccessManager](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/manager/AccessManager.sol)
   contract. Handle all access for the protocol.
 
-## 4. Getting Started
+## Deployment Addresses
+
+## Development
 
 ### Foundry
 
@@ -48,6 +50,15 @@ bun run test
 ```
 
 You will find other useful commands in the [package.json](./package.json) file.
+
+## Contributing
+
+If you're interested in contributing, please see our [contributions guidelines](./CONTRIBUTING.md).
+
+## Questions & Feedback
+
+For any question or feedback you can use [discord](https://discord.com/invite/mimodao). Don't hesitate to reach out on
+[Twitter](https://twitter.com/mimo_labs)🐦 as well.
 
 ## Licences
 

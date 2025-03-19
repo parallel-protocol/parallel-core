@@ -12,7 +12,16 @@ The Parallel Core own the following contracts:
   [Openzeppelin AccessManager](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/manager/AccessManager.sol)
   contract. Handle all access for the protocol.
 
+## Documentation Links
+
 ## Deployment Addresses
+
+## Security
+
+### Assumptions
+
+- Roles and wallets assigned to roles will must be tracked
+- Admin of AccessManager must be a multisig wallet
 
 ## Development
 

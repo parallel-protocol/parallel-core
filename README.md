@@ -37,14 +37,16 @@ The Parallel Core own the following contracts:
 bun i
 ```
 
-### Fill the `.env` file with your data
+### Setup `.env` file
 
 ```bash
 PRIVATE_KEY="PRIVATE KEY"
 ALCHEMY_API_KEY="ALCHEMY_API_KEY"
 ```
 
-check .env.example for others env variable
+For additional keys, you can check the [`.env.example`](/.env.example) file.
+
+**Warning: always keep your confidential information safe**
 
 ### Compile contracts
 

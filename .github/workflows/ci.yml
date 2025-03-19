@@ -37,9 +37,6 @@ jobs:
       - name: Setup repo
         uses: ./.github/actions/setup-repo
 
-      - name: Install Foundry
-        uses: foundry-rs/foundry-toolchain@v1
-
       - name: Compile foundry
         run: bun run compile --sizes
 

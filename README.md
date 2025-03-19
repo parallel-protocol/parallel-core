@@ -23,6 +23,8 @@ The Parallel Core own the following contracts:
 - Roles and wallets assigned to roles will must be tracked
 - Admin of AccessManager must be a multisig wallet
 
+### Audits
+
 ## Development
 
 ### Foundry
@@ -37,14 +39,12 @@ bun i
 
 ### Fill the `.env` file with your data
 
-The Foundry script relies solely on the PRIVATE_KEY. The MNEMONIC is used on the Hardhat side and will override the
-PRIVATE_KEY if it is defined.
-
 ```bash
-# You don't need to set both of these values, just pick the one that you prefer and set that one
 PRIVATE_KEY="PRIVATE KEY"
 ALCHEMY_API_KEY="ALCHEMY_API_KEY"
 ```
+
+check .env.example for others env variable
 
 ### Compile contracts
 

@@ -2,7 +2,7 @@
 pragma solidity 0.8.28;
 
 /// @title RolesLib
-/// @author Parallel Labs
+/// @author Cooper Labs
 /// @custom:contact security@cooperlabs.xyz
 /// @notice Library exposing base roles for Parallel Access Manager contracts.
 library Roles {

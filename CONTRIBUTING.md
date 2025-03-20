@@ -21,10 +21,10 @@ There are many ways to contribute, but here are a few if you want a place to sta
 
 ## Opening an Issue
 
-When opening an [issue](https://github.com/parallel-protocol/parallel-core/issues), please title it with a concise
-problem statement and check that a similar request is not already open or in progress. Not all issues may be deemed
-worth resolving, so please follow through with responding to any questions or comments that others may have regarding
-the issue.
+When opening an [issue](https://github.com/parallel-protocol/parallel-parallelizer/issues), please title it with a
+concise problem statement and check that a similar request is not already open or in progress. Not all issues may be
+deemed worth resolving, so please follow through with responding to any questions or comments that others may have
+regarding the issue.
 
 ## Opening a Pull Request
 

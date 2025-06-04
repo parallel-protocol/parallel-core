@@ -46,10 +46,35 @@ const config: HardhatUserConfig = {
       url: getRpcURL("arbiSepolia"),
       verify: getVerifyConfig("arbiSepolia"),
     },
+    fantom: {
+      accounts,
+      url: getRpcURL("fantom"),
+      verify: getVerifyConfig("fantom"),
+    },
     polygon: {
       accounts,
       url: getRpcURL("polygon"),
       verify: getVerifyConfig("polygon"),
+    },
+    optimism: {
+      url: getRpcURL("optimism"),
+      verify: getVerifyConfig("optimism"),
+      accounts,
+    },
+    base: {
+      url: getRpcURL("base"),
+      verify: getVerifyConfig("base"),
+      accounts,
+    },
+    arbitrum: {
+      url: getRpcURL("arbitrum"),
+      verify: getVerifyConfig("arbitrum"),
+      accounts,
+    },
+    sonic: {
+      url: getRpcURL("sonic"),
+      verify: getVerifyConfig("sonic"),
+      accounts,
     },
   },
   namedAccounts: {

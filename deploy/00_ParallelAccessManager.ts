@@ -2,7 +2,7 @@ import assert from "assert";
 
 import { type DeployFunction } from "hardhat-deploy/types";
 
-const contractName = "AccessManager";
+const contractName = "ParallelAccessManager";
 
 const deploy: DeployFunction = async (hre) => {
   const { getNamedAccounts, deployments } = hre;
@@ -16,9 +16,7 @@ const deploy: DeployFunction = async (hre) => {
 
   const contract = await deploy(contractName, {
     from: deployer,
-    args: [],
-    log: true,
-    skipIfAlreadyDeployed: false,
+    args: [deployer],
   });
 
   console.log(`Deployed contract: ${contractName}, network: ${hre.network.name}, address: ${contract.address}`);

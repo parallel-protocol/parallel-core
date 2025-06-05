@@ -4,8 +4,8 @@ pragma solidity 0.8.28;
 import "./Base.s.sol";
 
 contract GrantRole is BaseScript {
-    address dao = 0xC5201FFE258a95Af986E7cD1fcaD54f3f63f2C95;
-    address keeper = 0xc351C917a7f7b267e86a5f5368Be40FD1788c32b;
+    address dao = 0x1AD681fa147f35AB7B35c7a289B1938Bc0171e8b;
+    address keeper = 0xe1A4951E27f91dCC34c5C0B51eA53b46D6aD2566;
 
     function run() public broadcast {
         accessManager.grantRole(ADMIN_ROLE, dao, 0);

@@ -76,6 +76,56 @@ const config: HardhatUserConfig = {
       verify: getVerifyConfig("sonic"),
       accounts,
     },
+    sei: {
+      url: getRpcURL("sei"),
+      verify: getVerifyConfig("sei"),
+      accounts,
+    },
+    avalanche: {
+      url: getRpcURL("avalanche"),
+      verify: getVerifyConfig("avalanche"),
+      accounts,
+    },
+    bsc: {
+      url: getRpcURL("bsc"),
+      verify: getVerifyConfig("bsc"),
+      accounts,
+    },
+    berachain: {
+      url: getRpcURL("berachain"),
+      verify: getVerifyConfig("berachain"),
+      accounts,
+    },
+    scroll: {
+      url: getRpcURL("scroll"),
+      verify: getVerifyConfig("scroll"),
+      accounts,
+    },
+    mantle: {
+      url: getRpcURL("mantle"),
+      verify: getVerifyConfig("mantle"),
+      accounts,
+    },
+    gnosis: {
+      url: getRpcURL("gnosis"),
+      verify: getVerifyConfig("gnosis"),
+      accounts,
+    },
+    unichain: {
+      url: getRpcURL("unichain"),
+      verify: getVerifyConfig("unichain"),
+      accounts,
+    },
+    ink: {
+      url: getRpcURL("ink"),
+      verify: getVerifyConfig("ink"),
+      accounts,
+    },
+    hyperevm: {
+      url: getRpcURL("hyperevm"),
+      verify: getVerifyConfig("hyperevm"),
+      accounts,
+    },
   },
   namedAccounts: {
     deployer: {

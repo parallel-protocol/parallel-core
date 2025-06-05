@@ -11,7 +11,7 @@ contract BaseScript is Script {
     address internal broadcaster;
     uint64 public constant ADMIN_ROLE = type(uint64).min;
 
-    IAccessManager accessManager = IAccessManager(0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46);
+    IAccessManager accessManager = IAccessManager(0xfD28f108e95f4D41daAE9dbfFf707D677985998E);
 
     modifier broadcast() {
         uint256 privateKey = vm.envUint("PRIVATE_KEY");

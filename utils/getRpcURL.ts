@@ -62,6 +62,9 @@ export const getRpcURL = (network: string): string => {
     case "hyperevm": {
       return `https://rpc.hyperliquid.xyz/evm`;
     }
+    case "tac": {
+      return `https://rpc.ankr.com/tac`;
+    }
     default: {
       throw new Error(`${network} Network RPC not configured`);
     }

@@ -126,6 +126,11 @@ const config: HardhatUserConfig = {
       verify: getVerifyConfig("hyperevm"),
       accounts,
     },
+    tac: {
+      url: getRpcURL("tac"),
+      verify: getVerifyConfig("tac"),
+      accounts,
+    },
   },
   namedAccounts: {
     deployer: {

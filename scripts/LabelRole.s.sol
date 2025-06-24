@@ -3,7 +3,7 @@ pragma solidity 0.8.28;
 
 import "./Base.s.sol";
 
-contract GrantRole is BaseScript {
+contract LabelRole is BaseScript {
     function run() public broadcast {
         accessManager.labelRole(Roles.GOVERNOR_ROLE, "GOVERNOR_ROLE");
         accessManager.labelRole(Roles.GOVERNOR_ROLE_TIMELOCK, "GOVERNOR_ROLE_TIMELOCK");

@@ -120,6 +120,12 @@ The Parallel Core own the following contracts:
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](http://www.hyperscan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
 
+#### Tac
+
+| Contract              | Explore                                                                                                                    |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](http://explorer.tac.build/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
 ### Testnets
 
 #### Sepolia

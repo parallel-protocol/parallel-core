@@ -16,6 +16,130 @@ The Parallel Core own the following contracts:
 
 ## Deployment Addresses
 
+### Mainnets
+
+#### Ethereum
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0x94Ea8800444017695345156319e96bdB1E355F7a](https://etherscan.io/address/0x94Ea8800444017695345156319e96bdB1E355F7a) |
+
+#### Polygon
+
+| Contract              | Explore                                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| ParallelAccessManager | [0x7Df74BBB6F82eC1BCB1562a30ef5Bf5c326e2811](https://polygonscan.com/address/0x7Df74BBB6F82eC1BCB1562a30ef5Bf5c326e2811) |
+
+#### Fantom
+
+| Contract              | Explore                                    |
+| --------------------- | ------------------------------------------ |
+| ParallelAccessManager | 0x1FF33CF1607Ca109F23A3Fb9Ec5193037eB26306 |
+
+#### Base
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46](https://basescan.org/address/0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46) |
+
+#### Optimism
+
+| Contract              | Explore                                                                                                                          |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46](https://optimistic.etherscan.io/address/0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46) |
+
+#### Arbitrum
+
+| Contract              | Explore                                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46](https://arbiscan.io/address/0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46) |
+
+#### Sonic
+
+| Contract              | Explore                                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0x8eFb3DED78FbaEF2a4eFe01E01BBD911E4094b78](https://sonicscan.org/address/0x8eFb3DED78FbaEF2a4eFe01E01BBD911E4094b78) |
+
+#### Sei
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://seitrace.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Avalanche
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://snowtrace.io/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### BSC
+
+| Contract              | Explore                                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://bscscan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Berachain
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://berascan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Scroll
+
+| Contract              | Explore                                                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://scrollscan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Mantle
+
+| Contract              | Explore                                                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://mantlescan.xyz/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Gnosis
+
+| Contract              | Explore                                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://gnosisscan.io/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Unichain
+
+| Contract              | Explore                                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://uniscan.xyz/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Ink
+
+| Contract              | Explore                                                                                                                          |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://explorer.inkonchain.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### HyperEvm
+
+| Contract              | Explore                                                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](http://www.hyperscan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Tac
+
+| Contract              | Explore                                                                                                                    |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](http://explorer.tac.build/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+### Testnets
+
+#### Sepolia
+
+| Contract              | Explore                                                                                                                       |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://sepolia.etherscan.io/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Arbitrum Sepolia
+
+| Contract              | Explore                                                                                                                      |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://sepolia.arbiscan.io/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
 ## Security
 
 ### Assumptions

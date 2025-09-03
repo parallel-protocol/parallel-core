@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.28;
 
-import { AccessManager as OZAccessManager } from "@openzeppelin/contracts/access/manager/AccessManager.sol";
+import { AccessManager } from "@openzeppelin/contracts/access/manager/AccessManager.sol";
 
 import { Roles } from "contracts/libraries/RolesLib.sol";
 
-/// @title AccessManager
+/// @title ParallelAccessManager
 /// @author Cooper Labs
 /// @custom:contact security@cooperlabs.xyz
 /// @notice Contract inheriting from OpenZeppelin's AccessManager contract.
-contract AccessManager is OZAccessManager {
-    constructor(address owner) OZAccessManager(owner) { }
+contract ParallelAccessManager is AccessManager {
+    constructor(address owner) AccessManager(owner) { }
 }

@@ -1,20 +1,46 @@
-# directories
-cache
-coverage
-node_modules
-out
-
-# files
-*.env
-*.log
+## Defaults
+__pycache__
+.idea
 .DS_Store
-.pnp.*
-lcov.info
-package-lock.json
-pnpm-lock.yaml
-yarn.lock
+.deps
+.docs
+.env
+node_modules
+venv
+myforge
 
-# broadcasts
-!broadcast
-broadcast/*
-broadcast/*/31337/
+# Build output
+/cache-hh
+build
+export
+**/artifacts
+.openzeppelin
+typechain
+slither-audit.txt
+slither
+cache
+
+# Test output
+coverage
+coverage.json
+lcov.info
+reports/
+
+# Running output
+gas-report.txt
+gasReporterOutput.json
+addresses.json
+blockchain_db
+yarn-error.log
+broadcast
+
+# deployments
+deployments/localhost
+deployments/mainnetForkRemote
+
+# bin
+bin
+
+# foundry
+/out
+/cache-forge

@@ -6,7 +6,7 @@ import { AccessManager as OZAccessManager } from "@openzeppelin/contracts/access
 import { Roles } from "contracts/libraries/RolesLib.sol";
 
 /// @title AccessManager
-/// @author Parallel Labs
+/// @author Cooper Labs
 /// @custom:contact security@cooperlabs.xyz
 /// @notice Contract inheriting from OpenZeppelin's AccessManager contract.
 contract AccessManager is OZAccessManager {

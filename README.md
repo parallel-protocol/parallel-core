@@ -12,7 +12,20 @@ The Parallel Core own the following contracts:
   [Openzeppelin AccessManager](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/manager/AccessManager.sol)
   contract. Handle all access for the protocol.
 
-## 4. Getting Started
+## Documentation Links
+
+## Deployment Addresses
+
+## Security
+
+### Assumptions
+
+- Roles and wallets assigned to roles will must be tracked
+- Admin of AccessManager must be a multisig wallet
+
+### Audits
+
+## Development
 
 ### Foundry
 
@@ -21,19 +34,22 @@ The Parallel Core own the following contracts:
 ### Install js dependencies
 
 ```bash
-bun i
+bun install
 ```
 
-### Fill the `.env` file with your data
+### Setup `.env` file
 
-The Foundry script relies solely on the PRIVATE_KEY. The MNEMONIC is used on the Hardhat side and will override the
-PRIVATE_KEY if it is defined.
+In order to interact with non local networks, you must create an `.env` that has:
 
 ```bash
-# You don't need to set both of these values, just pick the one that you prefer and set that one
 PRIVATE_KEY="PRIVATE KEY"
 ALCHEMY_API_KEY="ALCHEMY_API_KEY"
+MAINNET_ETHERSCAN_API_KEY="MAINNET_ETHERSCAN_API_KEY"
 ```
+
+For additional keys, you can check the [`.env.example`](/.env.example) file.
+
+**Warning: always keep your confidential information safe**
 
 ### Compile contracts
 
@@ -47,7 +63,22 @@ bun run compile
 bun run test
 ```
 
+### [Slither](https://github.com/crytic/slither)
+
+```bash
+bun run slither
+```
+
 You will find other useful commands in the [package.json](./package.json) file.
+
+## Contributing
+
+If you're interested in contributing, please see our [contributions guidelines](./CONTRIBUTING.md).
+
+## Questions & Feedback
+
+For any question or feedback you can use [discord](https://discord.com/invite/mimodao). Don't hesitate to reach out on
+[Twitter](https://twitter.com/mimo_labs) as well.
 
 ## Licences
 

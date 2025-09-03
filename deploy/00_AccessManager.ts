@@ -1,4 +1,5 @@
 import assert from "assert";
+
 import { type DeployFunction } from "hardhat-deploy/types";
 
 const contractName = "AccessManager";

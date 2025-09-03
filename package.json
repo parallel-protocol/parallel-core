@@ -4,13 +4,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "compile": "forge build",
+    "compile": "forge build && hardhat compile",
     "clean": "rm -rf cache out",
-    "build": "forge build",
     "lint": "bun run lint:sol && bun run prettier:check",
     "lint:sol": "forge fmt --check && bun solhint \"{script,src,tests}/**/*.sol\"",
     "prettier:check": "prettier --check \"**/*.{json,md,yml}\" --ignore-path \".prettierignore\"",
     "prettier:write": "prettier --write \"**/*.{json,md,yml}\" --ignore-path \".prettierignore\"",
+    "slither": "slither . --triage-mode",
     "test": "forge test",
     "test:coverage": "forge coverage",
     "test:coverage:report": "forge coverage --report lcov && genhtml lcov.info --branch-coverage --output-dir coverage"
@@ -19,10 +19,14 @@
     "@openzeppelin/contracts": "^5.0.1"
   },
   "devDependencies": {
+    "dotenv": "^16.4.7",
     "forge-std": "github:foundry-rs/forge-std#v1.9.5",
+    "hardhat": "^2.22.19",
     "hardhat-contract-sizer": "^2.10.0",
     "hardhat-deploy": "^1.0.1",
     "prettier": "^3.0.0",
-    "solhint": "^3.6.2"
+    "solhint": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   }
 }

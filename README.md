@@ -168,7 +168,7 @@ In order to interact with non local networks, you must create an `.env` that has
 ```bash
 PRIVATE_KEY="PRIVATE KEY"
 ALCHEMY_API_KEY="ALCHEMY_API_KEY"
-MAINNET_ETHERSCAN_API_KEY="MAINNET_ETHERSCAN_API_KEY"
+ETHERSCAN_API_KEY="MAINNET_ETHERSCAN_API_KEY"
 ```
 
 For additional keys, you can check the [`.env.example`](/.env.example) file.

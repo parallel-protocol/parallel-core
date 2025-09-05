@@ -19,6 +19,8 @@
   fuzz = { runs = 10_000 }
   verbosity = 4
 
+[lint]
+exclude_lints = ["screaming-snake-case-constant"]
 
 [fmt]
   bracket_spacing = true

@@ -1,26 +1,25 @@
 import assert from "assert";
-
-import { type DeployFunction } from "hardhat-deploy/types";
+import { deployScript, artifacts } from "@rocketh";
 
 const contractName = "ParallelAccessManager";
 
-const deploy: DeployFunction = async (hre) => {
-  const { getNamedAccounts, deployments } = hre;
+export default deployScript(
+  async ({ namedAccounts, network, deploy }) => {
+    const { deployer } = namedAccounts;
+    const chainName = network.chain.name;
+    assert(deployer, "Missing named deployer account");
 
-  const { deploy } = deployments;
-  const { deployer } = await getNamedAccounts();
+    console.log(`Network: ${chainName} \nDeployer: ${deployer} \nDeploying : ${contractName}`);
 
-  assert(deployer, "Missing deployer account");
+    const contract = await deploy(contractName, {
+      account: deployer,
+      artifact: artifacts.ParallelAccessManager,
+      args: [deployer],
+    });
 
-  console.log(`Deploying contract: ${contractName}, network: ${hre.network.name}, deployer: ${deployer}`);
-
-  const contract = await deploy(contractName, {
-    from: deployer,
-    args: [deployer],
-  });
-
-  console.log(`Deployed contract: ${contractName}, network: ${hre.network.name}, address: ${contract.address}`);
-};
-
-deploy.tags = [contractName];
-export default deploy;
+    console.log(`Deployed contract: ${contractName}, network: ${chainName}, address: ${contract.address}`);
+  },
+  {
+    tags: [contractName],
+  },
+);

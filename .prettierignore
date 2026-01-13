@@ -2,6 +2,9 @@
 broadcast
 cache
 coverage
+artifacts/
+deployments/
+generated
 node_modules
 out
 

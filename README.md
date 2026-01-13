@@ -12,7 +12,144 @@ The Parallel Core own the following contracts:
   [Openzeppelin AccessManager](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/manager/AccessManager.sol)
   contract. Handle all access for the protocol.
 
-## 4. Getting Started
+## Documentation Links
+
+## Deployment Addresses
+
+### Mainnets
+
+#### Ethereum
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0x94Ea8800444017695345156319e96bdB1E355F7a](https://etherscan.io/address/0x94Ea8800444017695345156319e96bdB1E355F7a) |
+
+#### Polygon
+
+| Contract              | Explore                                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| ParallelAccessManager | [0x7Df74BBB6F82eC1BCB1562a30ef5Bf5c326e2811](https://polygonscan.com/address/0x7Df74BBB6F82eC1BCB1562a30ef5Bf5c326e2811) |
+
+#### Fantom
+
+| Contract              | Explore                                    |
+| --------------------- | ------------------------------------------ |
+| ParallelAccessManager | 0x1FF33CF1607Ca109F23A3Fb9Ec5193037eB26306 |
+
+#### Base
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46](https://basescan.org/address/0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46) |
+
+#### Optimism
+
+| Contract              | Explore                                                                                                                          |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46](https://optimistic.etherscan.io/address/0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46) |
+
+#### Arbitrum
+
+| Contract              | Explore                                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46](https://arbiscan.io/address/0x0e4e7Ca9D7b1e6293D0713EFEfB4BCA010DeBF46) |
+
+#### Sonic
+
+| Contract              | Explore                                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0x8eFb3DED78FbaEF2a4eFe01E01BBD911E4094b78](https://sonicscan.org/address/0x8eFb3DED78FbaEF2a4eFe01E01BBD911E4094b78) |
+
+#### Sei
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://seitrace.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Avalanche
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://snowtrace.io/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### BSC
+
+| Contract              | Explore                                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://bscscan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Berachain
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://berascan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Scroll
+
+| Contract              | Explore                                                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://scrollscan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Mantle
+
+| Contract              | Explore                                                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://mantlescan.xyz/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Gnosis
+
+| Contract              | Explore                                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://gnosisscan.io/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Unichain
+
+| Contract              | Explore                                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://uniscan.xyz/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Ink
+
+| Contract              | Explore                                                                                                                          |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://explorer.inkonchain.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### HyperEvm
+
+| Contract              | Explore                                                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](http://www.hyperscan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Tac
+
+| Contract              | Explore                                                                                                                    |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](http://explorer.tac.build/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+### Testnets
+
+#### Sepolia
+
+| Contract              | Explore                                                                                                                       |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://sepolia.etherscan.io/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Arbitrum Sepolia
+
+| Contract              | Explore                                                                                                                      |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://sepolia.arbiscan.io/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+## Security
+
+### Assumptions
+
+- Roles and wallets assigned to roles will must be tracked
+- Admin of AccessManager must be a multisig wallet
+
+### Audits
+
+## Development
 
 ### Foundry
 
@@ -21,19 +158,22 @@ The Parallel Core own the following contracts:
 ### Install js dependencies
 
 ```bash
-bun i
+bun install
 ```
 
-### Fill the `.env` file with your data
+### Setup `.env` file
 
-The Foundry script relies solely on the PRIVATE_KEY. The MNEMONIC is used on the Hardhat side and will override the
-PRIVATE_KEY if it is defined.
+In order to interact with non local networks, you must create an `.env` that has:
 
 ```bash
-# You don't need to set both of these values, just pick the one that you prefer and set that one
 PRIVATE_KEY="PRIVATE KEY"
 ALCHEMY_API_KEY="ALCHEMY_API_KEY"
+MAINNET_ETHERSCAN_API_KEY="MAINNET_ETHERSCAN_API_KEY"
 ```
+
+For additional keys, you can check the [`.env.example`](/.env.example) file.
+
+**Warning: always keep your confidential information safe**
 
 ### Compile contracts
 
@@ -47,7 +187,22 @@ bun run compile
 bun run test
 ```
 
+### [Slither](https://github.com/crytic/slither)
+
+```bash
+bun run slither
+```
+
 You will find other useful commands in the [package.json](./package.json) file.
+
+## Contributing
+
+If you're interested in contributing, please see our [contributions guidelines](./CONTRIBUTING.md).
+
+## Questions & Feedback
+
+For any question or feedback you can use [discord](https://discord.com/invite/mimodao). Don't hesitate to reach out on
+[Twitter](https://twitter.com/mimo_labs) as well.
 
 ## Licences
 

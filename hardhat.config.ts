@@ -46,10 +46,90 @@ const config: HardhatUserConfig = {
       url: getRpcURL("arbiSepolia"),
       verify: getVerifyConfig("arbiSepolia"),
     },
+    fantom: {
+      accounts,
+      url: getRpcURL("fantom"),
+      verify: getVerifyConfig("fantom"),
+    },
     polygon: {
       accounts,
       url: getRpcURL("polygon"),
       verify: getVerifyConfig("polygon"),
+    },
+    optimism: {
+      url: getRpcURL("optimism"),
+      verify: getVerifyConfig("optimism"),
+      accounts,
+    },
+    base: {
+      url: getRpcURL("base"),
+      verify: getVerifyConfig("base"),
+      accounts,
+    },
+    arbitrum: {
+      url: getRpcURL("arbitrum"),
+      verify: getVerifyConfig("arbitrum"),
+      accounts,
+    },
+    sonic: {
+      url: getRpcURL("sonic"),
+      verify: getVerifyConfig("sonic"),
+      accounts,
+    },
+    sei: {
+      url: getRpcURL("sei"),
+      verify: getVerifyConfig("sei"),
+      accounts,
+    },
+    avalanche: {
+      url: getRpcURL("avalanche"),
+      verify: getVerifyConfig("avalanche"),
+      accounts,
+    },
+    bsc: {
+      url: getRpcURL("bsc"),
+      verify: getVerifyConfig("bsc"),
+      accounts,
+    },
+    berachain: {
+      url: getRpcURL("berachain"),
+      verify: getVerifyConfig("berachain"),
+      accounts,
+    },
+    scroll: {
+      url: getRpcURL("scroll"),
+      verify: getVerifyConfig("scroll"),
+      accounts,
+    },
+    mantle: {
+      url: getRpcURL("mantle"),
+      verify: getVerifyConfig("mantle"),
+      accounts,
+    },
+    gnosis: {
+      url: getRpcURL("gnosis"),
+      verify: getVerifyConfig("gnosis"),
+      accounts,
+    },
+    unichain: {
+      url: getRpcURL("unichain"),
+      verify: getVerifyConfig("unichain"),
+      accounts,
+    },
+    ink: {
+      url: getRpcURL("ink"),
+      verify: getVerifyConfig("ink"),
+      accounts,
+    },
+    hyperevm: {
+      url: getRpcURL("hyperevm"),
+      verify: getVerifyConfig("hyperevm"),
+      accounts,
+    },
+    tac: {
+      url: getRpcURL("tac"),
+      verify: getVerifyConfig("tac"),
+      accounts,
     },
   },
   namedAccounts: {

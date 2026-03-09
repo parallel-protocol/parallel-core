@@ -126,13 +126,61 @@ The Parallel Core own the following contracts:
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](http://explorer.tac.build/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
 
+#### xLayer
+
+| Contract              | Explore                                                                                                                            |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfd28f108e95f4d41daae9dbfff707d677985998e](https://www.oklink.com/fr/x-layer/address/0xfd28f108e95f4d41daae9dbfff707d677985998e) |
+
+#### Plume
+
+| Contract              | Explore                                                                                                                     |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfd28f108e95f4d41daae9dbfff707d677985998e](https://explorer.plume.org/address/0xfd28f108e95f4d41daae9dbfff707d677985998e) |
+
+#### Plasma
+
+| Contract              | Explore                                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfd28f108e95f4d41daae9dbfff707d677985998e](https://plasmascan.to/address/0xfd28f108e95f4d41daae9dbfff707d677985998e) |
+
+#### Katana
+
+| Contract              | Explore                                                                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfd28f108e95f4d41daae9dbfff707d677985998e](https://katanascan.com/address/0xfd28f108e95f4d41daae9dbfff707d677985998e) |
+
+#### Fraxtal
+
+| Contract              | Explore                                                                                                               |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfd28f108e95f4d41daae9dbfff707d677985998e](https://fraxscan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Worldchain
+
+| Contract              | Explore                                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfd28f108e95f4d41daae9dbfff707d677985998e](https://worldscan.org/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Hemi
+
+| Contract              | Explore                                                                                                                    |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfd28f108e95f4d41daae9dbfff707d677985998e](https://explorer.hemi.xyz/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+
+#### Linea
+
+| Contract              | Explore                                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| ParallelAccessManager | [0xfd28f108e95f4d41daae9dbfff707d677985998e](https://lineascan.build/address/0xfd28f108e95f4d41daae9dbfff707d677985998e) |
+
 ### Testnets
 
 #### Sepolia
 
-| Contract              | Explore                                                                                                                       |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://sepolia.etherscan.io/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
+| Contract              | Explore                                                                                                                     |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://explorer.plume.org/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
 
 #### Arbitrum Sepolia
 

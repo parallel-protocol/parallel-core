@@ -38,9 +38,9 @@
     "hardhat": "^3.0.3",
     "hardhat-deploy": "^2.0.0-next.40",
     "prettier": "^3.0.0",
+    "rocketh": "^0.14.4",
     "solhint": "^3.6.2",
     "ts-node": "^10.9.2",
-    "rocketh": "^0.14.4",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2",
     "viem": "^2.37.1"

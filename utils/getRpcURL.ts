@@ -65,6 +65,30 @@ export const getRpcURL = (network: string): string => {
     case "tac": {
       return `https://rpc.ankr.com/tac`;
     }
+    case "xlayer": {
+      return `https://rpc.xlayer.tech`;
+    }
+    case "plume": {
+      return `https://rpc.plume.org`;
+    }
+    case "plasma": {
+      return `https://plasma.drpc.org`;
+    }
+    case "linea": {
+      return `https://linea-mainnet.g.alchemy.com/v2/${apiKey}`;
+    }
+    case "katana": {
+      return `https://rpc.katanarpc.com`;
+    }
+    case "fraxtal": {
+      return `https://fraxtal.api.pocket.network`;
+    }
+    case "worldchain": {
+      return `https://worldchain.drpc.org`;
+    }
+    case "hemi": {
+      return `https://hemi.drpc.org`;
+    }
     default: {
       throw new Error(`${network} Network RPC not configured`);
     }

@@ -16,6 +16,8 @@ The Parallel Core own the following contracts:
 
 ## Deployment Addresses
 
+These are the core contracts, the `ParallelAccessManager` of each chain, not a list of the chains where USDp is live. USDp itself is live on the 24 chains listed in [parallel-tokens](https://github.com/parallel-protocol/parallel-tokens#deployment-addresses) and in the [documentation](https://docs.parallel.best/products/parallel-v3/stablecoins-and-savings/usdp-and-susdp).
+
 ### Mainnets
 
 #### Ethereum
@@ -31,6 +33,8 @@ The Parallel Core own the following contracts:
 | ParallelAccessManager | [0x7Df74BBB6F82eC1BCB1562a30ef5Bf5c326e2811](https://polygonscan.com/address/0x7Df74BBB6F82eC1BCB1562a30ef5Bf5c326e2811) |
 
 #### Fantom
+
+No USDp on Fantom. This access manager owns the legacy MIMO to PRL migration contract (`PeripheralMigrationContract`, `0xfD28f108e95f4D41daAE9dbfFf707D677985998E`).
 
 | Contract              | Explore                                    |
 | --------------------- | ------------------------------------------ |
@@ -91,6 +95,8 @@ The Parallel Core own the following contracts:
 | ParallelAccessManager | [0xfD28f108e95f4D41daAE9dbfFf707D677985998E](https://scrollscan.com/address/0xfD28f108e95f4D41daAE9dbfFf707D677985998E) |
 
 #### Mantle
+
+Contracts deployed but never launched: no USDp on Mantle.
 
 | Contract              | Explore                                                                                                                 |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------- |

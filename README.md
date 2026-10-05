@@ -16,7 +16,10 @@ The Parallel Core own the following contracts:
 
 ## Deployment Addresses
 
-These are the core contracts, the `ParallelAccessManager` of each chain, not a list of the chains where USDp is live. USDp itself is live on the 24 chains listed in [parallel-tokens](https://github.com/parallel-protocol/parallel-tokens#deployment-addresses) and in the [documentation](https://docs.parallel.best/products/parallel-v3/stablecoins-and-savings/usdp-and-susdp).
+These are the core contracts, the `ParallelAccessManager` of each chain, not a list of the chains where USDp is live.
+USDp itself is live on the 24 chains listed in
+[parallel-tokens](https://github.com/parallel-protocol/parallel-tokens#deployment-addresses) and in the
+[documentation](https://docs.parallel.best/products/parallel-v3/stablecoins-and-savings/usdp-and-susdp).
 
 ### Mainnets
 
@@ -34,7 +37,8 @@ These are the core contracts, the `ParallelAccessManager` of each chain, not a l
 
 #### Fantom
 
-No USDp on Fantom. This access manager owns the legacy MIMO to PRL migration contract (`PeripheralMigrationContract`, `0xfD28f108e95f4D41daAE9dbfFf707D677985998E`).
+No USDp on Fantom. This access manager owns the legacy MIMO to PRL migration contract (`PeripheralMigrationContract`,
+`0xfD28f108e95f4D41daAE9dbfFf707D677985998E`).
 
 | Contract              | Explore                                    |
 | --------------------- | ------------------------------------------ |
